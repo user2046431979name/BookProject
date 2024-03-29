@@ -2,6 +2,7 @@ from django.contrib.auth import login, logout
 from django.shortcuts import render
 from django.http import response
 from .serializers import *
+from rest_framework.pagination import PageNumberPagination
 import json
 from .permissions import *
 from rest_framework import viewsets,generics
@@ -29,6 +30,13 @@ class CardView(generics.ListCreateAPIView):
     queryset = Card.objects.all()
     serializer_class = CardS
     permission_classes = (IsAdminOrReadOnly,)
+    def get(self,request,*args,**kwargs):
+       paginator = PageNumberPagination()
+       page = paginator.paginate_queryset(Card.objects.all(),request)
+       serializer = CardS(page, many=True)
+
+       return paginator.get_paginated_response(serializer.data)
+
    
 
 
@@ -36,6 +44,11 @@ class BookView(generics.ListCreateAPIView):
     queryset = Book.objects.all()
     serializer_class = BookS 
     permission_classes = (IsAdminOrReadOnly, )   
+    def get(self,request,*args,**kwargs):
+       paginator = PageNumberPagination()
+       page = paginator.paginate_queryset(Book.objects.all(),request)
+       serializer = BookS(page, many=True)
+       return paginator.get_paginated_response(serializer.data)
     
    
 
