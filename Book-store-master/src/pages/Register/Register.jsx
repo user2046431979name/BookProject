@@ -26,7 +26,7 @@ const Register = () => {
             <Title title='Регистрация'/>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor="username">Ваш username</label><br />
-                <input {...register('username')} type="username" placeholder='Email' /><br />
+                <input {...register('username')} type="username" placeholder='username' /><br />
                 <label htmlFor="password">Ваш пароль</label><br />
                 <input {...register('password')} type="password" placeholder='Пароль' /><br />
                 <button type='submit' className='login__btn btn'>Зарегистрироваться</button>

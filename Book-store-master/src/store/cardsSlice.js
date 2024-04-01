@@ -1,4 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import Cookies from "universal-cookie";
+const cookies = new Cookies();
 
 export const cardsSlice = createApi({
     reducerPath:"сards",
@@ -23,14 +25,22 @@ export const cardsSlice = createApi({
             query:(user)=>({
                 url:"auth/register",
                 method:"POST",
-                body:user
+                body:user,
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": cookies.get("csrftoken"),
+                  },
             })
         }),
         loginUser:build.mutation({
             query:(user)=>({
                 url:"auth/login/",
                 method:"POST",
-                body:user
+                body:user,
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": cookies.get("csrftoken"),
+                  },
             })
         })
     })
