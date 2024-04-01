@@ -1,0 +1,134 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "image": "src/assets/books/book1.png",
+            "title": "Simple way of piece life",
+            "name": "Armor Ramsey",   
+            "price": "$ 40.00",
+            "rating": 1 
+        },
+        {
+            "id": 2,
+            "image": "src/assets/books/book2.png",
+            "title": "Great travel at desert",
+            "name": "Sanchit Howdy",   
+            "price": "$ 38.00",
+            "rating": 2 
+        },
+        {
+            "id": 3,
+            "image": "src/assets/books/book3.png",
+            "title": "The lady beauty Scarlett",
+            "name": "Arthur Doyle",   
+            "price": "$ 45.00",
+            "rating": 3 
+        },
+        {
+            "id": 4,
+            "image": "src/assets/books/book4.png",
+            "title": "Once upon a time",
+            "name": "Klien Marry",   
+            "price": "$ 35.00",
+            "rating": 4 
+        }
+    ],
+    "book":[
+        {
+            "id": 1,
+            "image": "src/assets/books/book1.png",
+            "title": "Simple way of piece life",
+            "name": "Armor Ramsey",   
+            "price": "$ 40.00",
+            "rating": 1
+        },
+        {
+            "id": 2,
+            "image": "src/assets/books/book2.png",
+            "title": "Great travel at desert",
+            "name": "Sanchit Howdy",   
+            "price": "$ 38.00",
+            "rating": 2 
+        },
+        {
+            "id": 3,
+            "image": "src/assets/books/book3.png",
+            "title": "The lady beauty Scarlett",
+            "name": "Arthur Doyle",   
+            "price": "$ 45.00",
+            "rating": 3
+        },
+        {
+            "id": 4,
+            "image": "src/assets/books/book4.png",
+            "title": "Once upon a time",
+            "name": "Klien Marry",   
+            "price": "$ 35.00",
+            "rating": 4  
+        },
+        {
+            "id": 5,
+            "image": "src/assets/books/book5.png",
+            "title": "Birds gonna be happy",
+            "name": "Timbur Hood",   
+            "price": "$ 45.00",
+            "rating": 5
+        },
+        {
+            "id": 6,
+            "image": "src/assets/books/book6.png",
+            "title": "The Hypocrite world",
+            "name": "Sophia Hill",   
+            "price": "$ 45.00",
+            "rating": 6  
+        },
+        {
+            "id": 7,
+            "image": "src/assets/books/book1.png",
+            "title": "Simple way of piece life",
+            "name": "Armor Ramsey",   
+            "price": "$ 40.00",
+            "rating": 7
+        },
+        {
+            "id": 8,
+            "image": "src/assets/books/book2.png",
+            "title": "Great travel at desert",
+            "name": "Sanchit Howdy",   
+            "price": "$ 38.00",
+            "rating": 8 
+        },
+        {
+            "id": 9,
+            "image": "src/assets/books/book3.png",
+            "title": "The lady beauty Scarlett",
+            "name": "Arthur Doyle",   
+            "price": "$ 45.00",
+            "rating": 9
+        },
+        {
+            "id": 10,
+            "image": "src/assets/books/book4.png",
+            "title": "Once upon a time",
+            "name": "Klien Marry",   
+            "price": "$ 35.00",
+            "rating": 10  
+        },
+        {
+            "id": 11,
+            "image": "src/assets/books/book5.png",
+            "title": "Birds gonna be happy",
+            "name": "Timbur Hood",   
+            "price": "$ 45.00",
+            "rating": 11
+        },
+        {
+            "id": 12,
+            "image": "src/assets/books/book6.png",
+            "title": "The Hypocrite world",
+            "name": "Sophia Hill",   
+            "price": "$ 45.00",
+            "rating": 12  
+        }
+    ]
+}

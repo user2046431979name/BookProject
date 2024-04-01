@@ -1,0 +1,537 @@
+    .slaid{
+        max-width: 1520px; /* Максимальная ширина для содержимого */
+        height: auto; /* Автоматическая высота для подгонки контента */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(78.83deg, #FFE6E6 8.52%, #F5FFFE 68.88%, #FFFFFF 101.74%);
+        .cont1{
+            width: 100%; /* Занимать всю доступную ширину */
+            max-width: 100%; /* Максимальная ширина для содержимого */
+            height: auto; /* Автоматическая высота для подгонки контента */
+            margin: 20px; /* Отступы между контейнерами */
+            border-radius: 7px;
+            padding: 20px;
+            .text{
+                width: 100%; /* Занимать всю доступную ширину */
+                max-width: 100%; /* Максимальная ширина для содержимого */
+                height: auto; /* Автоматическая высота для подгонки контента */
+                border-radius: 7px;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .teks{
+                    width: 607px;
+                    height: 261px;
+                    top: 112px;
+                    left: 149px;
+                    gap: 50px;
+                    h1{
+                        font-family: Inter;
+                        font-size: 60px;
+                        font-weight: 600;
+                        line-height: 87px;
+                        letter-spacing: -0.02em;
+                        text-align: left;
+                        color: rgba(57, 50, 128, 1);
+                    }
+                    p{
+                        font-family: Inter;
+                        font-size: 22px;
+                        font-weight: 500;
+                        line-height: 40px;
+                        letter-spacing: 0.04em;
+                        text-align: left;
+                        color: rgba(57, 50, 128, 1);
+                    }
+                }
+                button{
+                    width: 197px;
+                    height: 61px;
+                    border-radius: 7px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    letter-spacing: 0.1em;
+                    text-align: center;
+                    color: rgba(57, 50, 128, 1);
+                    border: 1px solid rgba(57, 50, 128, 1);
+                    background: none;
+                }
+                
+            }
+        }
+        .cont2{
+            width: 713px;
+            height: 657.25px;
+            left: 679px;
+            padding-left: 50px;
+        }
+    }
+@media only screen and (max-width: 1000px) {
+    .slaid {
+        max-width: 1520px;
+        height: auto;
+        display: flex;
+        align-items: center; /* Centering items horizontally */
+        background: linear-gradient(78.83deg, #FFE6E6 8.52%, #F5FFFE 68.88%, #FFFFFF 101.74%);
+        .cont2 {
+            width: 100%; /* Adjusted width for mobile */
+            max-width: 100%; /* Maximum width for mobile */
+            display: flex;
+            justify-content: center;
+            height: auto; /* Automatic height for mobile */
+            img{
+                padding-right: 80px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+        .slaid {
+            max-width: 1200px;
+        }
+        .cont1, .cont2 {
+            width: 100%; /* Занимать всю доступную ширину */
+            max-width: 100%; /* Максимальная ширина для содержимого */
+            margin: 20px; /* Отступы между контейнерами */
+            padding: 20px;
+            text-align: center; /* Центрирование текста */
+        }
+        
+        .cont2 {
+            padding-left: 0; /* Убрать левый отступ */
+        }
+        
+        .teks {
+            width: 100%; /* Занимать всю доступную ширину */
+            max-width: 100%; /* Максимальная ширина для содержимого */
+            gap: 20px; /* Уменьшить промежуток между элементами */
+            
+            h1 {
+                font-size: 40px; /* Уменьшить размер шрифта заголовка */
+                line-height: 60px; /* Изменить высоту строки для заголовка */
+            }
+            
+            p {
+                font-size: 18px; /* Уменьшить размер шрифта абзаца */
+                line-height: 30px; /* Изменить высоту строки для абзаца */
+            }
+            
+            button {
+                width: 100%; /* Занимать всю доступную ширину */
+                max-width: 200px; /* Ограничить максимальную ширину кнопки */
+            }
+        }
+    }
+@media only screen and (max-width: 768px) {
+    .slaid {
+        max-width: 1520px;
+        height: auto;
+        display: flex;
+        align-items: center; /* Centering items horizontally */
+        background: linear-gradient(78.83deg, #FFE6E6 8.52%, #F5FFFE 68.88%, #FFFFFF 101.74%);
+    }
+}
+@media (max-width: 480px) {
+    .slaid {
+        max-width: 1520px;
+        height: auto; /* Автоматическая высота для подгонки контента */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(78.83deg, #FFE6E6 8.52%, #F5FFFE 68.88%, #FFFFFF 101.74%);
+        .cont1{
+            width: 100%; /* Занимать всю доступную ширину */
+            max-width: 100%; /* Максимальная ширина для содержимого */
+            height: auto; /* Автоматическая высота для подгонки контента */
+            margin: 20px; /* Отступы между контейнерами */
+            border-radius: 7px;
+            padding: 20px;
+            .text{
+                width: 100%; /* Занимать всю доступную ширину */
+                max-width: 100%; /* Максимальная ширина для содержимого */
+                height: auto; /* Автоматическая высота для подгонки контента */
+                border-radius: 7px;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .teks{
+                    width: 607px;
+                    height: 261px;
+                    top: 112px;
+                    left: 149px;
+                    gap: 50px;
+                    h1{
+                        font-family: Inter;
+                        font-size: 60px;
+                        font-weight: 600;
+                        line-height: 87px;
+                        letter-spacing: -0.02em;
+                        text-align: left;
+                        color: rgba(57, 50, 128, 1);
+                    }
+                    p{
+                        font-family: Inter;
+                        font-size: 22px;
+                        font-weight: 500;
+                        line-height: 40px;
+                        letter-spacing: 0.04em;
+                        text-align: left;
+                        color: rgba(57, 50, 128, 1);
+                    }
+                }
+                button{
+                    width: 197px;
+                    height: 61px;
+                    border-radius: 7px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    letter-spacing: 0.1em;
+                    text-align: center;
+                    color: rgba(57, 50, 128, 1);
+                    border: 1px solid rgba(57, 50, 128, 1);
+                    background: none;
+                }
+                
+            }
+        }
+        .cont2{
+            width: 713px;
+            height: 657.25px;
+            left: 679px;
+            padding-left: 50px;
+        }
+    }
+}
+
+
+// products
+.products{
+    max-width: 1520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 40px;
+    background: linear-gradient(78.43deg, #FBEEEE -27.34%, #F7FFFE 89.92%);
+    .product__left{
+        width: 413px; /* Максимальная ширина */
+        height: auto; /* Автоматическая высота */
+        background: rgba(255, 255, 255, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%; /* Максимальная ширина изображения */
+            height: auto; /* Автоматическая высота */
+            top: 81px;
+            left: 213px;
+        }
+    }
+    .product__rigth{
+        width: 100%; /* Занимать всю доступную ширину */
+        max-width: 600px; /* Максимальная ширина */
+        padding-top: 60px;
+        h1{
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 58px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(57, 50, 128, 1);
+            padding-bottom: 50px;
+        }
+        .name{
+            font-family: Inter;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.16em;
+            text-align: left;
+            color: rgba(136, 136, 136, 1);
+            padding-bottom: 10px;
+        }
+        h2{
+            font-family: Inter;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 34px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(57, 50, 128, 1);
+        }
+        .lorem{
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            width: 486px;
+            height: 66px;
+            top: 355px;
+            left: 772px;
+            color: rgba(122, 122, 122, 1);
+        }
+        .price{
+            font-family: Inter;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: rgba(237, 85, 59, 1);
+            padding-bottom: 50px;
+        }
+        button{
+            width: 197px;
+            height: 61px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            border-radius: 7px;
+            color: rgba(57, 50, 128, 1);
+            border: 1px solid rgba(57, 50, 128, 1);
+            background: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .products {
+        display: flex;
+        justify-content: center;
+        width: 1520px;
+        height: auto;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px; /* Уменьшаем отступ между элементами для мобильных устройств */
+        padding: 20px; /* Уменьшаем внутренние отступы для мобильных устройств */
+        background: linear-gradient(78.43deg, #FBEEEE -27.34%, #F7FFFE 89.92%);
+    }
+    
+    .product__left {
+        width: 100%; /* Занимать всю доступную ширину */
+        height: auto; /* Автоматическая высота */
+        background: rgba(255, 255, 255, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .product__left img {
+        width: 100%; /* Максимальная ширина изображения */
+        height: auto; /* Автоматическая высота */
+    }
+    
+    .product__right {
+        width: 100%; /* Занимать всю доступную ширину */
+        padding-top: 20px; /* Уменьшаем отступ сверху для мобильных устройств */
+    }
+    
+    .product__right h1,
+    .product__right .name,
+    .product__right h2,
+    .product__right .lorem,
+    .product__right .price,
+    .product__right button {
+        width: 100%; /* Занимать всю доступную ширину */
+        max-width: 100%; /* Максимальная ширина */
+    }
+}
+
+//aksi
+.aksi{
+    width: 1520px;
+    height: 657.25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(252, 235, 234, 1);
+    .cont1{
+        width: 607px;
+        height: 433px;
+        top: 112px;
+        left: 149px;
+        border-radius: 7px;
+        padding-left: 100px;
+        .text{
+            border-radius: 7px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h1{
+                font-family: Inter;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 66px;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 588px;
+                height: 132px;
+                color: rgba(57, 50, 128, 1);
+            }
+            p{
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                width: 588px;
+                height: 64px;
+                top: 218px;
+                left: 80px;
+                color: rgba(57, 50, 128, 1);
+            }
+        }
+        .days{
+            width: 313px;
+            height: 71px;
+            top: 310px;
+            left: 80px;
+            display: flex;
+            gap: 50px;
+            .con{
+                width: 55px;
+                height: 71px;
+                top: 310px;
+                left: 80px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .san{
+                    font-family: Inter;
+                    font-size: 26px;
+                    font-weight: 700;
+                    line-height: 47px;
+                    letter-spacing: 0.1em;
+                    text-align: center;
+                    color: rgba(237, 85, 59, 1);
+                }
+                .tam{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 29px;
+                    letter-spacing: 0.1em;
+                    text-align: center;
+                    color: rgba(0, 0, 0, 1);
+                }
+            }
+        }
+    }
+    .cont2{
+        width: 713px;
+        height: 657.25px;
+        left: 679px;
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+    @media only screen and (max-width: 1000px) {
+        max-width: 1520px; /* New max-width for responsiveness */
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .aksi{
+        max-width: 1520px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cont1 {
+            padding: 30px; /* Adjust padding for smaller screens */
+            .text {
+                gap: 20px;
+                h1 {
+                    font-family: Inter;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 66px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    width: 588px;
+                    height: 132px;
+                    color: rgba(57, 50, 128, 1);
+                }
+                p {
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 0.05em;
+                    text-align: left;
+                    width: 588px;
+                    height: 64px;
+                    top: 218px;
+                    left: 80px;
+                    color: rgba(57, 50, 128, 1);
+                }
+            }
+            .days {
+                gap: 10px; /* Adjust gap for smaller screens */
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .aksi{
+        max-width: 1520px;
+        justify-content: center;
+        .cont2{
+            img{
+                padding-right: 80px;
+            }
+        }
+        .cont1 {
+            .text {
+                gap: 20px;
+                h1 {
+                    font-family: Inter;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 66px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    width: 588px;
+                    height: 132px;
+                    color: rgba(57, 50, 128, 1);
+                }
+                p {
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 0.05em;
+                    text-align: left;
+                    width: 588px;
+                    height: 64px;
+                    top: 218px;
+                    left: 80px;
+                    color: rgba(57, 50, 128, 1);
+                }
+            }
+            .days {
+                gap: 10px; /* Adjust gap for smaller screens */
+            }
+        }
+    }
+}

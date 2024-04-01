@@ -1,0 +1,170 @@
+.Books{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+    width: 1500px;
+    .filtery{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        .price{
+            width: 280px;
+            height: 168px;
+            .head{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #e0e0e0;
+                p{
+                    font-family: var(--font-family);
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 200%;
+                    color: #393280;
+                }
+            }
+            .input{
+                padding-top: 20px;
+                width: 280px;
+                height: 50px;
+                display: flex;
+                gap: 30px;
+                padding-bottom: 50px;
+                h1{
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 180%;
+                    letter-spacing: 0.04em;
+                    text-align: center;
+                    color: #888;
+                }
+                .input1{
+                    display: flex;
+                    gap: 5px;
+                    justify-content: center;
+                    p{
+                        font-family: var(--font-family);
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 200%;
+                        color: #393280;
+                    }
+                    input{
+                        border: 1px solid #eaeaea;
+                        width: 77px;
+                        height: 33px;
+                    }
+                }
+            }
+            button{
+                width: 280px;
+                height: 44px;
+                background: #393280;
+                color: white;
+            }
+        }
+        .category{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #e0e0e0;
+            h1{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 200%;
+                color: #393280;
+            }
+        }
+        .categor{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 200%;
+                color: #393280;
+            }
+        }
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        background: none;
+        width: 1500px;
+        height: auto;
+        justify-content: space-between;
+        .sort{
+            display: flex;
+            gap: 100px;
+            .cont{
+                width: 250px;
+                height: 32px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                h1{
+                    font-family: var(--font-family);
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 200%;
+                    color: #393280;
+                }
+            }
+            .cont2{
+                width: 250px;
+                height: 32px;
+                display: flex;
+                align-items: center;
+                h1{
+                    font-family: var(--font-family);
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 200%;
+                    color: #393280;
+                }
+            }
+        }
+        .books{
+            max-width: 1500px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .slider{
+            display: flex;
+            gap: 20px;
+            .a{
+                
+                border-radius: 100%;
+                stroke-width: 1px;
+                border: 1px solid orangered;
+                background: none;
+            }
+            .s{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 49px;
+                height: 49px;
+                border-radius: 100%;
+                border: 1px solid orangered;
+                background: orangered;
+            }
+            .d{
+                width: 49px;
+                height: 49px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                border: 1px solid #e5e3da;
+                background: none;
+            }
+        }
+    }
+}

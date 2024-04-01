@@ -8,15 +8,16 @@ class Card(models.Model):
     image = models.ImageField()
     title = models.CharField(max_length = 255)
     name = models.CharField(max_length = 255)
-    price = models.IntegerField(default = 0)
+    price = models.TextField(default="")
     rating = models.IntegerField(default = 0)
+    
 
 
 class Book(models.Model):
     image = models.ImageField()
     title = models.CharField(max_length = 255)
     name = models.CharField(max_length = 255)
-    price = models.IntegerField(default = 0)
+    price = models.TextField(default="")
     rating = models.IntegerField(default = 0)
 
 
