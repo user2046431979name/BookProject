@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                     
                 </div>
-                <button className="btn">VIEW MORE <img src="src/assets/Vector.png" alt="" /></button>
+                <button className="btn">VIEW MORE <img src="static/src/assets/Vector.png" alt="" /></button>
             </div>
             <div className="release">
                 <p className="p">SOME QUALITY ITEMS</p>

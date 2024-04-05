@@ -6,8 +6,9 @@ from .views import *
 
 
 urlpatterns = [
-     path("auth/" , include('rest_framework.urls')),
-     path("auth/register", Signup.as_view()),
+#      path("api/" , include('rest_framework.urls')),
+     path("api/login/", user_login),
+     path("api/register", Signup.as_view()),
 
      path("cards/undefined", CardUndefinde.as_view()),
      path("cards",CardView.as_view()),

@@ -23,7 +23,7 @@ export const cardsSlice = createApi({
         }),
         registerUser:build.mutation({
             query:(user)=>({
-                url:"auth/register",
+                url:"api/register/",
                 method:"POST",
                 body:user,
                 headers: {
@@ -34,9 +34,9 @@ export const cardsSlice = createApi({
         }),
         loginUser:build.mutation({
             query:(user)=>({
-                url:"auth/login/",
+                url:"api/login/",
                 method:"POST",
-                body:user,
+                body: user,
                 headers: {
                     "Content-Type": "application/json",
                     "X-CSRFToken": cookies.get("csrftoken"),
