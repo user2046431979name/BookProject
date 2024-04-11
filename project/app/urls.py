@@ -6,9 +6,9 @@ from .views import *
 
 
 urlpatterns = [
-#      path("api/" , include('rest_framework.urls')),
+     path("api/logout/", user_logout),
      path("api/login/", user_login),
-     path("api/register", Signup.as_view()),
+     path("api/register/", Signup.as_view()),
 
      path("cards/undefined", CardUndefinde.as_view()),
      path("cards",CardView.as_view()),

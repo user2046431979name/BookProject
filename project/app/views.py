@@ -9,7 +9,7 @@ from django.contrib.auth.models import User
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 
 class CardUndefinde(APIView):
     def get(self, request, *args, **kwargs):
@@ -39,6 +39,14 @@ def user_login(request):
     else:
         return Response({'error': 'Method not allowed'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
     
+
+@api_view(['POST'])
+def user_logout(request):
+    if request.method == 'POST':
+        logout(request)
+        return Response({'message': 'Logged out successfully'}, status=status.HTTP_200_OK)
+    else:
+        return Response({'error': 'Method not allowed'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
 
 class CardView(generics.ListCreateAPIView):
     queryset = Card.objects.all()
