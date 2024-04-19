@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const laikApi = createApi({
   reducerPath: 'laikApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:8000/' }), // Укажите свой путь к API
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://aidt.pythonanywhere.com/' }), // Укажите свой путь к API
   endpoints: (builder) => ({
     submitLaik: builder.mutation({
       query: ({laik , userId}) => ({

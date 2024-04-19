@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 export const bookSlice = createApi({
     reducerPath:"book",
-    baseQuery:fetchBaseQuery({baseUrl:"http://127.0.0.1:8000"}),
+    baseQuery:fetchBaseQuery({baseUrl:"https://aidt.pythonanywhere.com/"}),
     endpoints:(build)=>({
         getAllBook:build.query({
             query:()=>`book`,

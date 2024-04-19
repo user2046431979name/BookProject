@@ -4,7 +4,7 @@ const cookies = new Cookies();
 
 export const cardsSlice = createApi({
     reducerPath:"сards",
-    baseQuery:fetchBaseQuery({baseUrl:"http://127.0.0.1:8000"}),
+    baseQuery:fetchBaseQuery({baseUrl:"https://aidt.pythonanywhere.com/"}),
     endpoints:(build)=>({
         getAllCards:build.query({
             query:()=>`cards`,
