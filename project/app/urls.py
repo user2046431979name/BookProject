@@ -16,4 +16,6 @@ urlpatterns = [
      
      path("book",BookView.as_view()),
      path("book/<int:pk>",BookDetail.as_view()),
+
+     path("busket/",Busket.as_view()),
 ]

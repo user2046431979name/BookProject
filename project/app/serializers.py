@@ -7,7 +7,10 @@ class UserS(serializers.ModelSerializer):
       model = User
       fields = ("email","username","password")
 
-
+class ProfileS(serializers.ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = "__all__"
 
 class CardS(serializers.ModelSerializer):
 
